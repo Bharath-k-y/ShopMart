@@ -91,3 +91,71 @@ body {
 .btn.filled:hover {
   background-color: #00e680;
 }
+
+/* Hero Section */
+.hero-section {
+  background-color: #1b1b1b;
+  color: white;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hero-left {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.hero-caption {
+  background-color: #e74c3c;
+  color: white;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.hero-right {
+  flex: 1 1 45%;
+  padding: 20px;
+}
+
+.hero-right h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-right p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #e74c3c;
+  color: white;
+}
